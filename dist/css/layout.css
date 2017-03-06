@@ -1,13 +1,33 @@
 /*设备绑定*/
 .content .binding-state {
-  margin: 1.88rem 0 1.88rem 0;
-  height: 5.76rem;
+  margin: 1.38rem 1.72rem 1.38rem 1.72rem;
+  height: 3rem;
   width: 2.96rem;
+  text-align: center;
 }
 .content .binding-button {
-  margin: 0  1.4rem auto;
-  height: 3.84rem;
+  margin: 0  0.7rem 3.04rem 0.7rem;
+  height: 0.8rem;
+  width: 5rem;
 }
 .binding-state .icon {
-  font-szie: 2rem;
+  font-size: 1.5rem!important;
+  color: #bcbcbc;
+  margin: 0;
+}
+.binding-state p {
+  margin: 0;
+  font-size: 0.28rem;
+  height: 0.76rem;
+}
+.binding-button p {
+  margin: 0;
+  border-radius: 0.07rem !important;
+}
+.binding-button .button {
+  height: 0.8rem;
+  background-color: #009900;
+  line-height: 0.8rem;
+  color: #fff;
+  font-size: 0.28rem;
 }
