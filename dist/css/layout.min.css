@@ -1,33 +1,52 @@
-/*设备绑定*/
+/*绑定事件*/
 .content .binding-state {
-  margin: 1.38rem 1.72rem 1.38rem 1.72rem;
-  height: 3rem;
-  width: 2.96rem;
+  text-align: center;
+  width: 100%;
+  margin-top: 2.5rem;
+}
+.content .icon {
+  font-size: 3rem !important;
+  color: #bcbcbc;
   text-align: center;
 }
+.content .binding-p {
+  text-align: center;
+  font-size: 0.5rem;
+  color: #6b6b6b;
+}
 .content .binding-button {
-  margin: 0  0.7rem 3.04rem 0.7rem;
-  height: 0.8rem;
-  width: 5rem;
+  width: 8rem;
+  margin: 0.8rem  1rem 0rem 1rem;
 }
-.binding-state .icon {
-  font-size: 1.5rem!important;
-  color: #bcbcbc;
-  margin: 0;
-}
-.binding-state p {
-  margin: 0;
-  font-size: 0.28rem;
-  height: 0.76rem;
-}
-.binding-button p {
-  margin: 0;
-  border-radius: 0.07rem !important;
-}
-.binding-button .button {
-  height: 0.8rem;
-  background-color: #009900;
-  line-height: 0.8rem;
+.content .binding-button a {
+  height: 1rem;
+  line-height: 1rem;
+  font-size: 0.5rem;
   color: #fff;
-  font-size: 0.28rem;
+  background-color: #009900;
+}
+/*设备管理*/
+.content .card,
+.content .card-content,
+.content .list-block {
+  height: 2rem;
+  margin: 0;
+}
+.content li {
+  height: 1rem;
+}
+.content .list-block .item-link {
+  height: 1rem;
+  min-height: 0;
+  font-size: 0.5rem;
+}
+.content .list-block .item-link .item-inner {
+  padding: 0 ;
+  margin: 0;
+  line-height: 1rem;
+  min-height: 0;
+  color: #333333;
+}
+.content div .item-inner {
+  height: 1rem;
 }
